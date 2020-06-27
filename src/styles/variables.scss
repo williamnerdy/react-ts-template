@@ -1,0 +1,24 @@
+@import './colors';
+
+$primary-color: $blue;
+$primary-color-inverse: $white;
+
+$secondary-color: $orange;
+$secondary-color-inverse: $gray;
+
+$success-color: $green;
+$success-color-inverse: $white;
+
+$danger-color: $red;
+$danger-color-inverse: $white;
+
+$warning-color: $yellow;
+$warning-color-inverse: $gray;
+
+$info-color: $cyan;
+$info-color-inverse: $white;
+
+$theme-colors: (
+  'primary': #0074d9,
+  'danger': #ff4136
+);
