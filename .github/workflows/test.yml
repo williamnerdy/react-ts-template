@@ -20,7 +20,7 @@ jobs:
           node-version: '12.x'
 
       - name: Install dependencies
-        run: npm ci --silent --only=production
+        run: npm ci --silent
 
       - name: Run coverage test
         run: npm run test:coverage
