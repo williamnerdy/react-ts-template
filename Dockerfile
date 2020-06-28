@@ -2,7 +2,7 @@
 FROM node:12-alpine as build-stage
 WORKDIR /app
 COPY . .
-RUN npm ci --silent
+RUN npm ci --silent --only=production
 RUN npm run build
 
 # Starting NGINX
