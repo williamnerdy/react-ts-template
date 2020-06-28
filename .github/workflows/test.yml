@@ -23,7 +23,7 @@ jobs:
         run: npm ci --silent
 
       - name: Run coverage test
-        run: npm run test:coverage
+        run: npm run test:ci
 
       - name: Codecov
         uses: codecov/codecov-action@v1

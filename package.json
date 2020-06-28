@@ -6,7 +6,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:coverage": "react-scripts test --watchAll --coverage"
+    "test:coverage": "react-scripts test --watchAll --coverage",
+    "test:ci": "cross-env CI=true react-scripts test --coverage"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -29,6 +30,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
+    "cross-env": "^7.0.2",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "http-proxy-middleware": "^1.0.4",
