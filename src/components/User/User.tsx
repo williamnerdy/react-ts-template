@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import Card from 'react-bootstrap/Card';
 
-type Props = {
+export type Props = {
   name: string;
   email: string;
 };

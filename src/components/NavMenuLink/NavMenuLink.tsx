@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { NavLink } from 'react-router-dom';
 
-type Props = {
+export type Props = {
   url: string;
   children: string;
 };

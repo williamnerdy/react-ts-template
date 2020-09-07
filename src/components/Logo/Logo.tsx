@@ -1,7 +1,7 @@
 import React from 'react';
-import { ReactComponent as LogoSVG } from '../../assets/logo.svg';
+import LogoImage from '../../assets/logo.svg';
 import './Logo.scss';
 
-const Logo = () => <LogoSVG className="logo" />;
+const Logo = () => <img src={LogoImage} className="logo" alt="Logo" />;
 
 export default Logo;
