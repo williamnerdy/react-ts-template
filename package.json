@@ -10,7 +10,7 @@
     "test:ci": "cross-env CI=true react-scripts test --coverage",
     "lint": "eslint src --max-warnings=0",
     "lint:fix": "npm run lint -- --fix",
-    "generate": "yarn plop --plopfile .generators/plopfile.js",
+    "generate": "npm run plop --plopfile .generators/plopfile.js",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
