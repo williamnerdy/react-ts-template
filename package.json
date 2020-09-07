@@ -43,6 +43,7 @@
     "http-proxy-middleware": "^1.0.4",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.7",
+    "plop": "^2.7.4",
     "prettier": "^2.0.5",
     "stylelint": "^13.5.0",
     "stylelint-config-prettier": "^8.0.1",
