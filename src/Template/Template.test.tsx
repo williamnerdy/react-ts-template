@@ -8,8 +8,8 @@ const renderWithRouter = (component: JSX.Element) =>
 
 describe('<Template />', () => {
   it('should renders with logo', () => {
-    const { getByText } = renderWithRouter(<Template />);
-    const logoElement = getByText('logo.svg');
+    const { getByRole } = renderWithRouter(<Template />);
+    const logoElement = getByRole('img', { name: /logo/i });
     expect(logoElement).toBeInTheDocument();
   });
 
