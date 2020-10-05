@@ -1,10 +1,10 @@
 import React from 'react';
 import { useQuery } from 'react-query';
 import Container from 'react-bootstrap/Container';
-import Post from '../../components/Post';
-import Loading from '../../components/Loading';
-import { getPosts } from '../../services/posts';
-import { QUERY_STATUS } from '../../constants/http';
+import Post from 'components/Post';
+import Loading from 'components/Loading';
+import { getPosts } from 'services/posts';
+import { QUERY_STATUS } from 'constants/http';
 
 const PostsPage = () => {
   const { status, data, error } = useQuery('posts', getPosts);

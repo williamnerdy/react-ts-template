@@ -1,4 +1,4 @@
-import api from '../configs/api';
+import api from 'configs/api';
 
 type User = {
   id: number;
