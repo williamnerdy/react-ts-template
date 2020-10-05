@@ -29,7 +29,8 @@
     "react-query": "^1.5.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "web-vitals": "^0.2.4"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^6.0.21",
@@ -70,6 +71,7 @@
       "src/**/*.{ts,tsx}",
       "!src/**/*.stories.tsx",
       "!src/serviceWorker.ts",
+      "!src/reportWebVitals.ts",
       "!src/setupTests.ts",
       "!src/setupProxy.js",
       "!src/index.tsx"
