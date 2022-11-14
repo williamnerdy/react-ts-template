@@ -28,13 +28,13 @@
     "react-dom": "^16.13.1",
     "react-query": "^1.5.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "typescript": "~3.7.2",
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^6.0.21",
-    "@storybook/react": "^6.0.21",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/react": "^6.5.13",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
